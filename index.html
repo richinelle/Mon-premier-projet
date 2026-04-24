@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Premier Projet</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bienvenue</h1>
+            <p class="subtitle">Mon premier projet interactif</p>
+        </header>
+
+        <main>
+            <div class="card">
+                <h2>Compteur</h2>
+                <p class="counter-value" id="counter">0</p>
+                <div class="button-group">
+                    <button id="decrement" class="btn btn-decrease">−</button>
+                    <button id="reset" class="btn btn-reset">Réinitialiser</button>
+                    <button id="increment" class="btn btn-increase">+</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Message</h2>
+                <input type="text" id="messageInput" placeholder="Entrez un message...">
+                <button id="displayBtn" class="btn btn-primary">Afficher</button>
+                <p id="messageOutput" class="message-output"></p>
+            </div>
+
+            <div class="card">
+                <h2>Thème</h2>
+                <div class="theme-toggle">
+                    <button id="themeBtn" class="btn btn-theme">Mode Sombre</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2026 - Mon Premier Projet</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
